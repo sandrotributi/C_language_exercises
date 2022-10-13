@@ -1,4 +1,5 @@
-# Esercizi linguaggio C
+# ESERCIZI LINGUAGGIO C
+
 
 ## ESERCIZIO 1
 Si scriva un programma in linguaggio C che legga *due valori interi* e visualizzi la loro media
