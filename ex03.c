@@ -17,6 +17,7 @@ int main() {
         printf("Il numero %d e' POSITIVO\n", num);
     }
     else {
+        // il numero è NEGATIVO
         printf("Il numero %d e' NEGATIVO\n", num);
     }
 
