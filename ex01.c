@@ -25,5 +25,6 @@ int main() {
 
     printf("\n");
     printf("La media aritmetica di %d e %d e' %f\n", a, b, media);
+    
     return 0;
 }
