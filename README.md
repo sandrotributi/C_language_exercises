@@ -30,3 +30,6 @@ ax + b = 0
 ```
 con *a* e *b* inseriti da tastiera, scrivere un programma in linguaggio C per determinare il
 valore di *x*, se esiste, che risolve l’equazione.
+
+## ESERCIZIO 6
+Si realizzi un programma in linguaggio C che acquisisca da tastiera un numero e stampi il valore assoluto di tale numero.
