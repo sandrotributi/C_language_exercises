@@ -33,3 +33,6 @@ valore di *x*, se esiste, che risolve l’equazione.
 
 ## ESERCIZIO 6
 Si realizzi un programma in linguaggio C che acquisisca da tastiera un numero e stampi il valore assoluto di tale numero.
+
+## ESERCIZIO 7
+Dato un numero intero tra 1 e 12, che rappresenta il mese corrente, stampare il nome del mese per esteso (“Gennaio” ... “Dicembre”).
