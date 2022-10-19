@@ -11,29 +11,27 @@
 
 int main() {
     float d;            // numero inserito
-    float aq, ac, at;   // area quadrato, cerchio, triangolo
-    float r;            // raggio del cerchio
-    
-    // costante pari a radice(3) / 4
-    const float rad3_4 = sqrt(3) / 4;
 
     printf("Calcolo di aree\n\n");
     printf("Digita il valore di d: ");
     scanf("%f", &d);
+
     // calcolo area del quadrato
-    aq = d * d; 
+    float aq = d * d; 
     // calcolo area del cerchio
-    r = d / 2;
+    float r = d / 2;
     // nota: M_PI è la costante pre-definita pi greco
-    ac = M_PI * (r * r);
+    float ac = M_PI * (r * r);   
+    // costante pari a radice(3) / 4
+    const float rad3_4 = sqrt(3) / 4;
     // calcolo area del triangolo equilatero di lato d
-    at = rad3_4 * (d * d);
+    float at = rad3_4 * (d * d);
+    
     // stampa dei risultati
-    printf("\n");
-    printf("Le aree calcolate sono:\n");
-    printf("Area del quadrato di lato %f = %f\n", d, aq);
-    printf("Area del cerchio di diametro %f = %f\n", d, ac);
-    printf("Area del del triangolo equilatero di lato %f = %f\n", d, at);
+    printf("\nLe aree calcolate sono:\n");
+    printf("Area del quadrato di lato %5.2f \t\t\t= %5.2f\n", d, aq);
+    printf("Area del cerchio di diametro %5.2f \t\t\t= %5.2f\n", d, ac);
+    printf("Area del del triangolo equilatero di lato %5.2f \t= %5.2f\n", d, at);
 
     return 0;
 }

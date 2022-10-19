@@ -6,25 +6,21 @@
 #include <stdio.h>
 
 int main() {
-    int a, b;     // numeri inseriti da tastiera
-    float somma;  // somma dei due numeri
-    float media;  // media dei due numeri
-
     printf("Calcolo della media di due numeri\n\n");
 
+    int a, b;     // numeri inseriti da tastiera
     // lettura dei due numeri da tastiera
-    printf("Digita il primo numero: ");
+    printf("Digita il primo numero: \t");
     scanf("%d", &a);
-    printf("Digita il secondo numero: ");
+    printf("Digita il secondo numero: \t");
     scanf("%d", &b);
 
     // calcolo della somma dei due numeri
-    somma = a + b;
+    float somma = a + b;
     // calcolo della media dei due numeri
-    media = somma / 2;
+    float media = somma / 2;
 
-    printf("\n");
-    printf("La media aritmetica di %d e %d e' %f\n", a, b, media);
+    printf("\nLa media aritmetica di %d e %d e' %5.2f\n", a, b, media);
     
     return 0;
 }
